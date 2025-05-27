@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+    <head>
+        <meta charset = "UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <style>
+            body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.header{
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.content {
+    display: flex;
+}
+.content .side{
+    background-color: #333;
+    padding: 10px;
+    flex: 30%;
+    color: #ddd;
+}
+.content .main{
+    background-color: blueviolet;
+    padding: 10px;
+    flex: 70%;
+    color: aliceblue;
+}
+.fake-img {
+    background-color: #c21212;
+    padding: 15px;
+    height: 120px;
+}
+.footer {
+    background-color: #454545;
+    text-align: center;
+    height: 120px;
+    padding: 20px;
+    color: beige;
+}
+@media screen and (max-width: 400px){
+    .navbar, .content {
+        flex-direction: column;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <div class = "header">
+            <h1>Desenvolvimento de Softaware WEB</h1>
+        </div>
+        
+        </div>
+        <div class = "content">
+            <div class = "side">
+                <h4>[Menu Lateral]</h4>
+                <p>Link 1</p>
+                <p>Link 2</p>
+                <p>Link 3</p>
+                <p>Link 4</p>
+            </div>
+            <div class = "main">
+                <h4>[Conteúdo]</h4>
+                <P>
+                    <section><b>Introdução ao HTML</b></section>
+                </P>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eius veritatis, pariatur, 
+                    quibusdam porro quod deleniti corporis id repudiandae modi numquam fuga magni ex. Quae non 
+                    repudiandae neque illo ratione!
+                </p>
+                <div class="fake-img">
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eius veritatis, pariatur, 
+                    quibusdam porro quod deleniti corporis id repudiandae modi numquam fuga magni ex. Quae non 
+                    repudiandae neque illo ratione!
+                </p>
+                <div class="fake-img">
+                </div>
+            </div>
+        </div>
+        <div class = "footer">
+            <address>
+                <a href="mailto:someone@example.com">fulanodetal@ufc.br</a><br/>
+                2025.1 <br/>
+                Todos os direitos reservados <br/>
+            </address>
+        </div>
+    </body>
+</html>

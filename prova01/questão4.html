@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .notification-card{
+                display: flex;
+                flex-direction: column;
+                bottom: 20px;
+                right: 20px;
+                position: fixed;
+                background-color: white;
+                border-radius: 8px;
+                padding: 20px;
+                box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12); 
+                border: 1px solid #cccccc;
+            }
+            .card-header{
+                display: flex;
+                justify-content: flex-end;
+                width: 100%; 
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptate recusandae aspernatur nisi dignissimos iste, consequuntur assumenda placeat laboriosam odio possimus, nobis voluptatem dolorem nesciunt aperiam, quaerat cupiditate et illo?
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptate recusandae aspernatur nisi dignissimos iste, consequuntur assumenda placeat laboriosam odio possimus, nobis voluptatem dolorem nesciunt aperiam, quaerat cupiditate et illo?
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptate recusandae aspernatur nisi dignissimos iste, consequuntur assumenda placeat laboriosam odio possimus, nobis voluptatem dolorem nesciunt aperiam, quaerat cupiditate et illo?
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptate recusandae aspernatur nisi dignissimos iste, consequuntur assumenda placeat laboriosam odio possimus, nobis voluptatem dolorem nesciunt aperiam, quaerat cupiditate et illo?
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptate recusandae aspernatur nisi dignissimos iste, consequuntur assumenda placeat laboriosam odio possimus, nobis voluptatem dolorem nesciunt aperiam, quaerat cupiditate et illo?
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptate recusandae aspernatur nisi dignissimos iste, consequuntur assumenda placeat laboriosam odio possimus, nobis voluptatem dolorem nesciunt aperiam, quaerat cupiditate et illo?
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptate recusandae aspernatur nisi dignissimos iste, consequuntur assumenda placeat laboriosam odio possimus, nobis voluptatem dolorem nesciunt aperiam, quaerat cupiditate et illo?
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptate recusandae aspernatur nisi dignissimos iste, consequuntur assumenda placeat laboriosam odio possimus, nobis voluptatem dolorem nesciunt aperiam, quaerat cupiditate et illo?
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptate recusandae aspernatur nisi dignissimos iste, consequuntur assumenda placeat laboriosam odio possimus, nobis voluptatem dolorem nesciunt aperiam, quaerat cupiditate et illo?
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptate recusandae aspernatur nisi dignissimos iste, consequuntur assumenda placeat laboriosam odio possimus, nobis voluptatem dolorem nesciunt aperiam, quaerat cupiditate et illo?
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptate recusandae aspernatur nisi dignissimos iste, consequuntur assumenda placeat laboriosam odio possimus, nobis voluptatem dolorem nesciunt aperiam, quaerat cupiditate et illo?
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptate recusandae aspernatur nisi dignissimos iste, consequuntur assumenda placeat laboriosam odio possimus, nobis voluptatem dolorem nesciunt aperiam, quaerat cupiditate et illo?
+        </p>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const closeButton = document.getElementById('444');
+            const notificationCard = document.getElementById('123');
+            if (closeButton && notificationCard) {
+                closeButton.addEventListener('click', function() {
+                    notificationCard.classList.add('hidden');
+                });
+            } else {
+                if (!closeButton) console.error("Botão de fechar não encontrado!");
+                if (!notificationCard) console.error("Card de notificação não encontrado!");
+            }
+        });
+    </script>
+
+        <div class="notification-card" id="123">
+            <div class="card-header">
+                <button class="close-btn" id="444">X</button>
+            </div>
+            <div class="card-content">
+                <h3>Novidade!</h3>
+                <p>Confira nossos novos produtos.</p>
+            </div>
+        </div>
+
+    </body>
+</html>
