@@ -1,0 +1,16 @@
+table { 
+        border-collapse: collapse; 
+        width: 100%; 
+}
+th, td {    
+        border: 1px solid rgb(216, 195, 195); 
+        padding: 6px 12px; 
+        text-align: center; 
+}
+    th { 
+        background: rgb(161, 150, 150); 
+}
+
+    .destacar { 
+        background: rgb(145, 7, 7); 
+    } 
